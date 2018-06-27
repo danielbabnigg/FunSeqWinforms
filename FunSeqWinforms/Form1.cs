@@ -16,5 +16,11 @@ namespace FunSeqWinforms
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            ImageSeriesFilter isform = new ImageSeriesFilter();
+            isform.Show();
+        }
     }
 }
