@@ -34,8 +34,7 @@ namespace FunSeqWinforms
             }
         }
 
-        private void GetDirectories(DirectoryInfo[] subDirs,
-   TreeNode nodeToAddTo)
+        private void GetDirectories(DirectoryInfo[] subDirs, TreeNode nodeToAddTo)
         {
             TreeNode aNode;
             DirectoryInfo[] subSubDirs;
