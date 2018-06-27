@@ -57,6 +57,12 @@
     <Compile Include="ImageSeriesFilter.Designer.cs">
       <DependentUpon>ImageSeriesFilter.cs</DependentUpon>
     </Compile>
+    <Compile Include="NewEraPumpControl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewEraPumpControl.Designer.cs">
+      <DependentUpon>NewEraPumpControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">

@@ -22,5 +22,11 @@ namespace FunSeqWinforms
             ImageSeriesFilter isform = new ImageSeriesFilter();
             isform.Show();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            NewEraPumpControl nepc = new NewEraPumpControl();
+            nepc.Show();
+        }
     }
 }
